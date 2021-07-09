@@ -76,9 +76,9 @@ a {
   opacity: 1;
 }
 
-.fa {
+/* .fa {
   margin-right: 5px;
-}
+} */
 
 header {
   height: 65px;
@@ -112,12 +112,18 @@ header {
   float: left;
   transition: all 0.5s;
 }
-
+a.menu-bar {
+  display: none;
+  height: 65px;
+}
+.menu-button-icon {
+  margin-top: 7px;
+}
 .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-.menu-icon {
+.menu- .menu .menu-icon {
   color: white;
   float: right;
   font-size: 25px;
@@ -170,7 +176,7 @@ header {
 .text-contents {
   width: 80%;
   display: inline-block;
-  line-height: 1.2rem;
+  line-height: 1.5rem;
   margin-top: 15px;
   font-size: 15px;
   color: #b3aeb5;
@@ -214,12 +220,10 @@ footer {
 }
 @media (max-width: 850px) {
   .lessons {
-    display: flex;
     flex-direction: column;
   }
 
   .lesson {
-    display: flex;
     flex-direction: row;
     align-items: center;
     width: auto;
@@ -227,26 +231,42 @@ footer {
     text-align: center;
   }
 
-  .lesson-icon {
-    position: relative;
-    height: 200px;
-    width: 200px;
+  .text-contents {
+    width: 80%;
+
+    text-align: left;
+  }
+}
+
+@media (max-width: 600px) {
+  a.menu-letter {
+    display: none;
+  }
+  a.menu-bar {
+    display: initial;
+  }
+  .facebook {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .lessons {
+    flex-direction: column;
   }
 
-  .lesson-icon p {
-    position: absolute;
-    top: 70px;
-    width: 200px;
-    color: white;
+  .lesson {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin-bottom: 1rem;
+    text-align: center;
   }
 
   .text-contents {
     width: 80%;
-    display: inline-block;
-    line-height: 1.2rem;
-    margin-top: 15px;
-    font-size: 15px;
-    text-align: left;
-    color: #b3aeb5;
+
+    text-align: center;
+  }
+  footer {
+    text-align: center;
   }
 }
