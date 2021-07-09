@@ -84,14 +84,15 @@ header {
   height: 65px;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
-  position :fixed;
+  position: fixed;
   top: 0;
   z-index: 10;
 }
 
 .logo {
-  width: 124px;
-  margin-top: 20px;
+  width: auto;
+  height: 65px;
+  margin: 0;
 }
 
 .header-left {
@@ -116,7 +117,7 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-.menu-icon{
+.menu-icon {
   color: white;
   float: right;
   font-size: 25px;
@@ -141,26 +142,35 @@ header {
 .heading h2 {
   font-weight: normal;
 }
+.lessons {
+  display: flex;
+}
 
 .lesson {
-  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 25%;
+  text-align: center;
 }
 
 .lesson-icon {
   position: relative;
+  height: 200px;
+  width: 200px;
 }
 
 .lesson-icon p {
   position: absolute;
-  top: 44%;
-  width: 100%;
+  top: 70px;
+  width: 200px;
   color: white;
 }
 
 .text-contents {
   width: 80%;
   display: inline-block;
+  line-height: 1.2rem;
   margin-top: 15px;
   font-size: 15px;
   color: #b3aeb5;
@@ -201,4 +211,42 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+}
+@media (max-width: 850px) {
+  .lessons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lesson {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .lesson-icon {
+    position: relative;
+    height: 200px;
+    width: 200px;
+  }
+
+  .lesson-icon p {
+    position: absolute;
+    top: 70px;
+    width: 200px;
+    color: white;
+  }
+
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    line-height: 1.2rem;
+    margin-top: 15px;
+    font-size: 15px;
+    text-align: left;
+    color: #b3aeb5;
+  }
 }
