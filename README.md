@@ -1,3 +1,3 @@
 # Landing page UI
 
-create a responsive landing page for coding learning website
+create a responsive landing page for programming learning website
