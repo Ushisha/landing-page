@@ -8,7 +8,7 @@ responsive landing page for programming learning website
 
 ## Links
 
-- Live Site URL: [live site URL](https://ushisha.github.io/landing-page/)
+- Live Site URL: [https://ushisha.github.io/landing-page/](https://ushisha.github.io/landing-page/)
 
 ## My process
 
