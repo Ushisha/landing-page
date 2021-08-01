@@ -17,3 +17,4 @@ responsive landing page for programming learning website
 - Semantic HTML5 markup
 - Flexbox
 - CSS Grid
+- Responsive Web Design
