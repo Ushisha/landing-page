@@ -1,6 +1,6 @@
-# Landing page UI
+# Landing page
 
-responsive landing page for programming learning website
+Responsive landing page for a website for programming school.
 
 ## Screenshot
 
