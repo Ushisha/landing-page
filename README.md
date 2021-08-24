@@ -8,7 +8,7 @@ Responsive landing page for a website for programming school.
 
 ## Links
 
-- Live Site URL: [https://ushisha.github.io/landing-page-UI/](https://ushisha.github.io/landing-page-UI/)
+- Live Site URL: [https://ushisha.github.io/landing-page/](https://ushisha.github.io/landing-page/)
 
 ## My process
 
